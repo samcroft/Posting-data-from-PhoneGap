@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no;">
+        
+	<title>jQuery form post</title>
+	
+	<script src="phonegap-1.2.0.js"></script>
+	
+	<script src="js/jquery-1.5.min.js"></script>
+    <script src="js/post.js"></script>
+        
+    <script>
+        function onBodyLoad() {		
+            document.addEventListener("deviceready",onDeviceReady,false);
+        }
+    </script>
+        
+    <style>
+        label, b {
+            display: block;
+        }
+    </style>
+</head>
+<body onload="onBodyLoad()">
+
+<div id="landmark-1" data-landmark-id="1">
+	<form>
+		<label for="email">
+			<b>Email</b>
+			<input type="email" id="email" name="email">
+		</label>
+
+		<label for="comment">
+			<b>Comment</b>
+			<textarea id="comment" name="comment" cols="30" rows="10"></textarea>
+		</label>
+		
+		<input type="submit" value="Save">
+	</form>
+</div>
+
+</body>
+</html>

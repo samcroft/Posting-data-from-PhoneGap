@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Posting data from PhoneGap' target in the 'Posting data from PhoneGap' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif
