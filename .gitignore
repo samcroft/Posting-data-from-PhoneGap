@@ -1,0 +1,7 @@
+*.mode1v3
+*.perspectivev3
+*.pbxuser
+xcuserdata
+.DS_Store
+build
+www/phonegap-1.2.0.js
