@@ -7,6 +7,7 @@ $(document).bind('deviceready', function(){
             $.ajax({
                 type: 'POST',
                 data: postData+'&lid='+landmarkID,
+                //change the url for your project
                 url: 'http://localhost/jquery-post/save.php',
                 success: function(data){
                     console.log(data);
